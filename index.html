@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/96dca7d72b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Firts Login Page</title>
 </head>
 <body>
     <main class="container">
         
         <form >
-            <h1>Login site</h1>
+            <h1>Login</h1>
             <div class="inputbox">
                 <input placeholder="Usuário" type="email">
+                <i class="fa-solid fa-user"></i>
             </div>
             <div class="inputbox">
                 <input placeholder="Senha" type="password">
+                <i class="fa-solid fa-key"></i>
             </div>
+            <div class="responsabilidade">
+            <label>
+                <input type ="checkbox">
+                    Lembrar senha 
+            </label>
+            <a href="#">Esqueci senha</a>
+        </div>
+        <button type="submit" class="Login">Login</button>
+        <div class="Registro">
+            <p>Não tem uma conta? <a href="#">Registrar-se</a></p>
+        </div>
         </form>
 
 
